@@ -47,13 +47,13 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = <h1>Hello, my name is</h1>;
+  const two = <h2 className="big-heading">Akhil Kashyap</h2>;
+  const three = <h3 className="big-heading">I am a MERN stack developer</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I am a third year undergraduate pursuing Communication and Computer Engineering from LNMIIT,
+      Jaipur. I am specialized in building full stack web applications using React and Node.
     </p>
   );
   const five = (

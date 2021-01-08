@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Akhil Kashyap',
     description:
       'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
@@ -16,18 +16,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
-        start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
-        display: 'minimal-ui',
-        icon: 'src/images/logo.png',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: 'BrittanyChiang',
+    //     short_name: 'BrittanyChiang',
+    //     start_url: '/',
+    //     background_color: config.colors.darkNavy,
+    //     theme_color: config.colors.navy,
+    //     display: 'minimal-ui',
+    //     icon: 'src/images/logo.png',
+    //   },
+    // },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,

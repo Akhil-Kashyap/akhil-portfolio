@@ -80,6 +80,7 @@ const Footer = () => {
     fetch('https://api.github.com/repos/bchiang7/v4')
       .then(response => response.json())
       .then(json => {
+        console.log(json);
         const { stargazers_count, forks_count } = json;
         setGitHubInfo({
           stars: stargazers_count,

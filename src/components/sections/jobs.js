@@ -264,9 +264,7 @@ const Jobs = () => {
                     <span>{title}</span>
                     <span className="company">
                       &nbsp;@&nbsp;
-                      <a href={url} className="inline-link">
-                        {company}
-                      </a>
+                      <a className="inline-link">{company}</a>
                     </span>
                   </h3>
 
